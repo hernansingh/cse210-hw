@@ -2,9 +2,9 @@ class Program
 {
     static void Main(string[] args)
     {
-        Product product1 = new Product("Laptop", 1, 1000, 1);  // 1 unidad a $1000
-        Product product2 = new Product("Smartphone", 2, 500, 2);  // 2 unidades a $500 cada una
-        Product product3 = new Product("Headphones", 3, 150, 3);  // 3 unidades a $150 cada una
+        Product product1 = new Product("Laptop", 1, 1000, 1);
+        Product product2 = new Product("Smartphone", 2, 500, 2);
+        Product product3 = new Product("Headphones", 3, 150, 3);
 
         Address address = new Address("123 Main St", "Los Angeles", "CA", "USA");
 
